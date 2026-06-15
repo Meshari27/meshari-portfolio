@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ServiceNow Developement",
+    "category": "Enterprise Platform Management"
+  },
+  {
+    "name": "System Intergrations",
+    "category": "Enterprise Platform Management"
+  },
+  {
+    "name": "Business Application Management",
+    "category": "Enterprice Platform Management"
+  },
+  {
+    "name": "Python",
+    "category": "Developement"
+  },
+  {
+    "name": "JavaSctipt",
+    "category": "Developement"
+  },
+  {
+    "name": "Product Management",
+    "category": "Management"
+  },
+  {
+    "name": "Database Management",
+    "category":"Platform & Developement"
+  },
+  {
+    "name":"VScript - Windows Deployement",
+    "category":"Developement"
+  },
+  {
+    "name":"Low-Code / No-Code Development.",
+    "category":"Developement"
+  },
+  {
+    "name":"System Analysis & Design.",
+    "category":"Management"
+  }
+]

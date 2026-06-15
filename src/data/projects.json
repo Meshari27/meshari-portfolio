@@ -1,0 +1,32 @@
+[
+  {
+    "title": "ServiceNow Implementation",
+    "description": "Implementated ServiceNow orgnization-wide, modules like ITSM, HRSD",
+    "technologies": ["ServiceNow", "JavaScript", "Business Workflow"]
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "A personal portfolio website that includes pages for my skills, project, resume, and more.",
+    "technologies": ["React", "TypeScript", "React Router", "CSS Grid"]
+  },
+  {
+    "title": "ServiceNow Automation",
+    "description": "A workflow automation project that helps manage service requests and improve business processes.",
+    "technologies": ["ServiceNow", "JavaScript", "Business Rules", "Business Workflow"]
+  },
+  {
+    "title": "ServiceNow / SAP intergration",
+    "description": "Intergrated ServiceNow with SAP SuccessFactors to manage emplyees data like leave balance, entitelements, and allowances",
+    "technologies": ["Database", "Data integration", "System design"]
+  },
+  {
+    "title": "Microsoft Low code / No Code",
+    "description": "Built applications from scrach using MS Powerapps",
+    "technologies": ["Low code / no code", "Database", "Microsoft Power Apps", "Microsoft Automation tool"]
+  },
+  {
+    "title": "Microsoft Deployement MDT",
+    "description": "Deployed windows 10 and 11 to the orgonization laptops, pre-install all needed applications along with the windows setup",
+    "technologies": ["VSCode", "MDT", "Active Directory"]
+  }
+]
