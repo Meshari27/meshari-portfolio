@@ -23,6 +23,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/messages" element={<Messages />} />
+          <Route path="/meshari-portfolio/" element={<Home />} />
         </Routes>
       </Layout>
     </BrowserRouter>
