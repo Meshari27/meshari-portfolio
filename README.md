@@ -150,13 +150,3 @@ This project demonstrates the following concepts:
 - SQLite database integration
 - Create, Read, and Delete database operations
 
-## Future Improvements
-
-Potential future enhancements include:
-
-- Message editing functionality
-- Authentication and authorization
-- User accounts
-- Improved form validation
-- Search and filtering features
-- Deployment to a cloud hosting platform
