@@ -1,4 +1,21 @@
 function Contact() {
+  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const form = event.currentTarget;
+    const email = form.email.value;
+    const message = form.message.value;
+    fetch("http://localhost:5000/messages", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ email, message }),
+    });
+
+    alert("Message sent successfully");
+    form.reset();
+  }
   return (
     <section className="about-section">
       <div className="about-header">
@@ -6,9 +23,7 @@ function Contact() {
         <h1>Contact</h1>
       </div>
 
-      <p>
-        You can reach me through the contact information below.
-      </p>
+      <p>You can reach me through the contact information below.</p>
 
       <div className="info-grid">
         <article className="info-card">
@@ -23,7 +38,10 @@ function Contact() {
         <article className="info-card">
           <h3>Email</h3>
           <p>
-            <a className="contact-link" href="mailto:meshari.thubyani@gmail.com">
+            <a
+              className="contact-link"
+              href="mailto:meshari.thubyani@gmail.com"
+            >
               meshari.thubyani@gmail.com
             </a>
           </p>
@@ -57,6 +75,20 @@ function Contact() {
           </p>
         </article>
       </div>
+
+      <form className="contact-form" onSubmit={handleSubmit}>
+        <h2>Leave a Message</h2>
+
+        <label htmlFor="messageEmail">Email</label>
+        <input id="messageEmail" name="email" type="email" />
+
+        <label htmlFor="messageText">Message</label>
+        <textarea id="messageText" name="message" rows={6}></textarea>
+
+        <button type="submit" className="primary-button">
+          Submit
+        </button>
+      </form>
     </section>
   );
 }
